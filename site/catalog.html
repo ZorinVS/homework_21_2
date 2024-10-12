@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Сайдбар -->
+      <nav class="col-md-3 col-lg-2 d-md-block vh-100 bg-dark sidebar collapse">
+        <div class="d-flex flex-column h-100">
+          <!-- Меню -->
+          <div class="border-bottom py-3">
+            <a class="navbar-brand text-light" href="/?page=index">
+              <img class="icon" src="img/bootstrap-fill.svg" />
+              Меню
+            </a>
+          </div>
+          <ul class="nav flex-column">
+            <!-- Главная -->
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/?page=index">
+                <img class="icon" src="img/house-door.svg" />
+                Главная
+              </a>
+            </li>
+            <!-- Категории -->
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/?page=categories">
+              <img class="icon" src="img/speedometer.svg" />
+              Категории</a>
+            </li>
+            <!-- Каталог -->
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/?page=catalog">
+              <img class="icon" src="img/table.svg" />
+              Каталог</a>
+            </li>
+            <!-- Контакты -->
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/?page=contacts">
+              <img class="icon" src="img/person-circle.svg" />
+              Контакты</a>
+            </li>
+          </ul>
+          <!-- Пользователь -->
+          <div class="dropdown border-top mt-auto mb-3">
+            <a href="#" class="nav-link text-light dropdown-toggle mt-3" data-bs-toggle="dropdown">
+              <img class="icon rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR9r7slEcz9Oi5Zr0qQlyjNZ0zk_Ts0bDCBA&s" width="40" height="40" />
+              Пользователь</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Профиль</a></li>
+              <li><a class="dropdown-item" href="#">Выход</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Главное содержание страницы -->
+      <div class="col-9 text-center">
+        <h2 class="mt-5 mb-5">Каталог</h2>
+
+        <div class="row justify-content-center">
+          <!-- Карточка 1 -->
+          <div class="col-6 col-lg-5 mb-5 mx-5">
+            <div class="card h-100 text-dark">
+              <div class="card-img-top bg-secondary text-white text-center" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                Thumbnail
+              </div>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <div>
+                  <button class="btn btn-outline-secondary btn-sm">View</button>
+                  <button class="btn btn-outline-secondary btn-sm">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+          <!-- Карточка 2 -->
+          <div class="col-md-6 col-lg-5 mb-5">
+            <div class="card h-100">
+              <div class="card-img-top bg-secondary text-white text-center" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                Thumbnail
+              </div>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <div>
+                  <button class="btn btn-outline-secondary btn-sm">View</button>
+                  <button class="btn btn-outline-secondary btn-sm">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+         </div>
+         <!-- Карточка 3 -->
+          <div class="col-md-6 col-lg-5 mb-4 mx-5">
+            <div class="card h-100">
+              <div class="card-img-top bg-secondary text-white text-center" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                Thumbnail
+              </div>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <div>
+                  <button class="btn btn-outline-secondary btn-sm">View</button>
+                  <button class="btn btn-outline-secondary btn-sm">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+         </div>
+         <!-- Карточка 4 -->
+          <div class="col-md-6 col-lg-5 mb-4">
+            <div class="card h-100">
+              <div class="card-img-top bg-secondary text-white text-center" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                Thumbnail
+              </div>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <div>
+                  <button class="btn btn-outline-secondary btn-sm">View</button>
+                  <button class="btn btn-outline-secondary btn-sm">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
